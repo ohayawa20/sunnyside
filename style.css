@@ -102,13 +102,13 @@
 }
 .design {
   height: 700px;
-  background: url(../images/desktop/image-graphic-design.jpg);
+  background: url(./images/desktop/image-graphic-design.jpg);
   background-size: cover;
   background-position: center;
 }
 .photography {
   height: 700px;
-  background: url(../images/desktop/image-photography.jpg);
+  background: url(./images/desktop/image-photography.jpg);
   background-size: cover;
   background-position: center;
 }
