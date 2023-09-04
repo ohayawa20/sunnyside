@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.header {
+  width: 100%;
+  height: 900px;
+  background: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.customise-navlink li a {
+  margin: auto;
+  width: fit-content;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 24px;
+  font-family: "Barlow", sans-serif;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.customise-navlink li a.contact {
+  color: hsl(212, 27%, 19%);
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.customise-navlink li a:hover {
+  color: hsl(0, 0%, 100%) ;
+  background-color: hsl(201, 100%, 71%);
+}
+.tagline {
+  text-align: center;
+}
+.tagline h1 {
+  padding-top: 140px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+.tagline img {
+  margin-top: 120px;
+}
+.brand-info,
+.audience-info {
+  max-width: 450px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+.brand-info h4,
+.audience-info h4 {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+}
+.brand-info p,
+.audience-info p {
+  font-family: "Barlow", sans-serif;
+  margin: 40px 0;
+  color: hsl(232, 10%, 55%);
+}
+.brand-info button,
+.audience-info button {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+.brand-info button::after,
+.audience-info button::after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 10px;
+  left: -7px;
+  bottom: 4px;
+  border-radius: 10px;
+  transition: 0.3s;
+  z-index: -1;
+}
+.brand-info button::after {
+  background-color: hsl(51, 92%, 81%);
+}
+.audience-info button::after {
+  background-color: hsl(7, 96%, 89%);
+}
+.brand-info button:hover::after {
+  background-color: hsl(51, 100%, 49%);
+}
+.audience-info button:hover::after {
+  background-color: hsl(7, 99%, 70%);
+}
+.design {
+  height: 700px;
+  background: url(../images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.photography {
+  height: 700px;
+  background: url(../images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.design-info,
+.photography-info {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 10px 60px;
+}
+.design-info h4,
+.photography-info h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.design-info h4 {
+  color: hsl(167, 40%, 24%);
+}
+.photography-info h4 {
+  color: hsl(198, 62%, 26%);
+}
+.design-info p,
+.photography-info p {
+  font-family: "Barlow", sans-serif;
+}
+.design-info p {
+  color: hsl(167, 40%, 24%);
+}
+.photography-info p {
+  color: hsl(198, 62%, 26%);
+}
+.testimonial {
+  margin: 100px auto;
+}
+.testimonial-title {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: hsl(210, 4%, 67%);
+}
+.testimonial-card {
+  margin: 80px 10px 0;
+  max-width: 370px;
+}
+.testimonial-card img {
+  max-width: 100px;
+}
+.testimonial-card h5 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  margin-top: 50px;
+}
+.testimonial-card p:nth-child(2) {
+  margin-top: 60px;
+  color: hsl(213, 9%, 39%);
+  font-family: "Barlow", sans-serif;
+}
+.testimonial-card p:nth-child(4) {
+  color: hsl(210, 4%, 67%);
+  font-family: "Barlow", sans-serif;
+}
+.footer {
+  background-color: hsl(169, 52%, 70%);
+  padding: 60px 0;
+}
+.footer-logo a {
+  color: hsl(168, 34%, 41%);
+  text-decoration: none;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 44px;
+}
+.footer-links {
+  margin-top: 30px;
+}
+.footer-links a {
+  color: hsl(168, 34%, 41%);
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  padding: 0 22px;
+  transition: 0.4s;
+}
+.footer-links a:hover {
+  color: hsl(0, 0%, 100%);
+}
+.social-links {
+  margin-top: 70px;
+}
+.social-links a {
+  margin: 0 12px;
+}
+.attribution {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Barlow", sans-serif;
+  color: hsl(213, 9%, 39%);
+}
+.attribution a {
+  font-size: 13px;
+  color: hsl(167, 40%, 24%);
+  font-family: "Fraunces", serif;
+}
+@media (max-width: 991px) {
+  .customise-navlink {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+  .customise-navlink li a {
+    color: hsl(212, 27%, 19%);
+    margin: 10px auto;
+  }
+  .customise-navlink li a.contact {
+    background-color: hsl(51, 100%, 49%);
+  }
+  .customise-navlink li a:hover {
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(201, 100%, 71%);
+  }
+  .brand-info p,
+  .audience-info p {
+    margin: 18px 0;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    height: 700px;
+  }
+  .tagline h1 {
+    font-size: 40px;
+    padding-top: 100px;
+  }
+  .tagline img {
+    margin-top: 80px;
+  }
+  .brand-info,
+  .audience-info {
+    margin-bottom: 40px;
+  }
+  .brand-info h4,
+  .audience-info h4 {
+    margin-top: 50px;
+  }
+  .brand-info p,
+  .audience-info p {
+    margin: 24px 0;
+  }
+}
+@media (max-width: 493px) {
+  .tagline h1 {
+    padding-top: 70px;
+  }
+  .tagline img {
+    margin-top: 60px;
+  }
+}
